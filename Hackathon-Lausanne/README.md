@@ -13,6 +13,7 @@ Team-based development under time constraints (MVP-oriented)
 ## What We Built
 - A civic chatbot answering user questions using retrieved official content
 - A Retrieval-Augmented Generation (RAG) pipeline
+- An optional voice-based output to enhance accessibility
 - A Streamlit-based interactive web application
 - A Dockerized setup for easy deployment
 
@@ -29,9 +30,16 @@ Team-based development under time constraints (MVP-oriented)
 - **Deployment**: Docker
 
 ## Key Features
-- Conversational interface with chat history
+- Conversational interface with persistent chat history
 - Context-aware answers grounded in retrieved documents
+- Multi-source retrieval (PDF + web content)
+- **Optional text-to-speech output**, enabling the chatbot to read its answers aloud
 - Fully open-source oriented pipeline
+
+## Accessibility Considerations
+The chatbot includes an optional text-to-speech functionality, allowing users to
+listen to the generated answers. This feature was designed to improve accessibility
+and usability for a wider range of users.
 
 ## My Contribution
 - Development and testing of the RAG pipeline
