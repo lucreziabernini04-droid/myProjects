@@ -17,26 +17,33 @@ Students frequently fail to find essential details, leading to frustration, dela
 increased workload for university help desks.
 
 ## Solution
-An AI assistant based on Retrieval-Augmented Generation (RAG) that:
-- Retrieves official information from university documents and websites
-- Answers students’ questions conversationally
-- Automatically generates a personalized email to the university office when information
-  is missing, allowing the user to send it with a single click
+An AI assistant based on Retrieval-Augmented Generation (RAG) that simplifies access to
+university information through two complementary integration modes:
+
+- **Browser extension**: the assistant is embedded directly into university webpages via
+  a Chrome extension, allowing students to ask questions without leaving the site.
+- **Website integration**: the assistant can also be deployed directly within the
+  university website as a native conversational interface.
+
+When information is missing, the system automatically generates a personalized email to
+the appropriate university office, which the user can send with a single click.
 
 ## Architecture & Technologies
 - **Backend**: Python
-- **API**: FastAPI
+- **API**: FastAPI (chat handling and escalation logic)
 - **Retrieval**: RAG pipeline with vector database (Qdrant)
 - **Document ingestion**: PDF parsing and indexing
-- **Frontend**: Browser extension (HTML, CSS, JavaScript)
+- **Frontend (Option 1)**: Chrome browser extension (HTML, CSS, JavaScript)
+- **Frontend (Option 2)**: Direct website integration
 - **Framework**: DataPizza AI framework
 
 ## Key Features
 - No manual website navigation required
-- Reduced help desk workload
+- Dual integration: browser extension and native website deployment
 - Automatic email generation with all relevant information
+- Reduced help desk workload
 - Reduced hallucinations thanks to RAG grounding
-- Seamless integration into existing university websites via browser extension
+- Seamless user experience within existing university platforms
 
 ## Project Structure
 The prototype includes:
