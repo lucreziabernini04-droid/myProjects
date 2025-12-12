@@ -9,7 +9,7 @@ preprocessing, model adaptation (fine-tuning and prompt engineering), and system
 
 ## Context
 Academic project for the *Text Mining and Natural Language Processing* course  
-Bachelor’s Degree in Artificial Intelligence – University of Pavia (2024–2025)
+Bachelor’s Degree in Artificial Intelligence – University of Pavia - Milano Statale - Milano Bicocca (2024–2025)
 
 ## Models
 We explored two complementary approaches:
