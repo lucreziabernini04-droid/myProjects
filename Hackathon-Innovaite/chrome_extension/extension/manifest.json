@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "DataPizza Chat Helper",
+  "version": "0.1",
+  "description": "Chat assistant for university sites (connects to local DataPizza backend)",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "http://127.0.0.1:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["chat.html", "bocconi.html", "chatbot.js", "style.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

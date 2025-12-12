@@ -1,0 +1,31 @@
+# Core web / API
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+
+# Environment / config
+python-dotenv>=1.0.0
+
+# LLM / embeddings
+openai>=0.27.0
+datapizza-ai>=0.1.0
+
+# Vector DB (Qdrant) client used by datapizza vectorstore
+qdrant-client>=1.5.0
+
+# PDF parsing / ingestion
+pypdf>=3.10.0
+docling>=0.2.0
+
+# HTTP / async helpers
+aiohttp>=3.8.4
+requests>=2.28.2
+
+# Templating (used by some prompt/template utilities)
+Jinja2>=3.1.2
+
+# Dev / testing (optional)
+# pytest>=7.0.0
+
+# Notes:
+# - ⁠ datapizza-ai ⁠ provides the ⁠ datapizza ⁠ package used in the retrieval/ingestion modules.
+# - Adjust package versions if you have constraints on your environment (Python 3.11 recommended).
