@@ -22,8 +22,15 @@ Using a "MiniBrain" approach, the study investigates how pathology alters networ
 - **Bifurcation Analysis**: Investigation of the system's stability near critical points.
 
 ----
+### Tech Stack
+- **Language**: Python
+
+- **Libraries**: NumPy, SciPy (differential equations), Matplotlib, Seaborn.
+
+- **Frameworks**: Concepts derived from The Virtual Brain (TVB).
 
 ### Repository Content
 - **BrainModelingProject.ipynb**: Python implementation of the Wilson-Cowan dynamics and simulations.
 
 - **BrainModelingReport.pdf**: Full scientific report detailing the mathematical framework and neurobiological implications.
+
