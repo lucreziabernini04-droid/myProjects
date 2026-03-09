@@ -17,10 +17,17 @@ Each folder contains a standalone project with code, documentation, and results.
   using transformer models (T5, SciFive, Flan-T5, Phi-3-mini), evaluated with ROUGE, BLEU,
   and BERTScore.
 
-### Machine Learning
+### Machine Learning & Medical Data Science
+- **Statistical-Analysis-Migraine** 
+    Longitudinal study on 179 patients evaluating anti-CGRP antibody effectiveness. Used **MICE** and **LOCF** for attrition handling and **Mixed-Effect Models** to identify responder phenotypes based on clinical history.
+  
 - **ML-Spotify-Popularity**  
   Supervised machine learning analysis of Spotify track popularity using audio features
   and classical ML pipelines.
+
+### Computational Neuroscience
+- **Brain-Modeling-Neurodegeneration**
+    Implementation of a 10-node **Wilson-Cowan** "MiniBrain" framework to simulate Alzheimer’s and Frontotemporal Dementia. Used phase-plane analysis to prove that pathology shifts network operating points.
 
 ### Retrieval-Augmented Generation & AI Systems
 - **Hackathon-Lausanne**  
@@ -48,4 +55,4 @@ Each folder contains a standalone project with code, documentation, and results.
 
 ## Background
 BSc in Artificial Intelligence – University of Pavia - Milano Statale - Milano Bicocca
-Academic focus on applied and research-oriented AI methods.
+Academic focus on applied and research-oriented AI methods, with a strong interest in medical applications and complex system modeling.
