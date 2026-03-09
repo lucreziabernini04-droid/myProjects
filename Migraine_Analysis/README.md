@@ -19,14 +19,14 @@ Using temporal pattern analysis, patients were stratified into three clinical cl
 
 - Cluster 2 (**Partial Responders**): Gradual but significant improvement, despite complex clinical histories.
 
-## Tech Stack & Methods
+----
+
+### Tech Stack & Methods
 - **Language**: Python (Pandas, Statsmodels, Scikit-learn).
 
 - **Statistical Methods**: Kruskal-Wallis tests (clinical history vs. demographics), Mixed-Effects Modeling.
 
 - **Feature Engineering**: MICE for longitudinal data imputation.
-
-----
 
 ### Repository Content
 - **Migraine_Analysis.ipynb**: Full pipeline from EDA to clustering and modeling.
@@ -34,3 +34,4 @@ Using temporal pattern analysis, patients were stratified into three clinical cl
 - **MigraineAnalysisReport.pdf**: Comprehensive statistical report and clinical discussion.
 
 - **MigraineAnalysisPresentation.pdf**: Visual summary of the study and key findings.
+
