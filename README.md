@@ -18,8 +18,6 @@ computational neuroscience and customer analytics. Each folder is a standalone p
   to track how the brain's response to stimulation changes over time.
 - Co-first author of a poster presented at the **3rd DBS Society Congress** (Vienna, September 2026).
 
-*Code and data are not public, since they involve clinical recordings. Details are available on request.*
-
 ---
 
 ## Projects
