@@ -7,6 +7,21 @@ computational neuroscience and customer analytics. Each folder is a standalone p
 
 ---
 
+## Research
+
+### Topological Data Analysis of LFP signals in adaptive DBS for Parkinson's disease
+*BSc thesis · Research intern at Centro Aldo Ravelli & Centro Parkinson, Milan · March – July 2026*
+*Supervisors: Prof. Claudia Casellato, Prof. Sara Marceglia*
+
+- Analysed about 30 months of chronic subthalamic LFP recordings from adaptive Deep Brain Stimulation (aDBS).
+- Built a Python pipeline based on Topological Data Analysis: Takens embeddings, persistence diagrams and Wasserstein distances,
+  to track how the brain's response to stimulation changes over time.
+- Co-first author of a poster presented at the **3rd DBS Society Congress** (Vienna, September 2026).
+
+*Code and data are not public, since they involve clinical recordings. Details are available on request.*
+
+---
+
 ## Projects
 
 ### Marketing & Customer Analytics
